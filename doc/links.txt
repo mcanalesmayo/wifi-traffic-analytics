@@ -2,15 +2,8 @@ OpenWRT:
 - https://wiki.openwrt.org/doc/uci/wireless
 - https://wiki.openwrt.org/doc/howto/clientmode
 - https://wiki.openwrt.org/doc/howto/wide.area.wifi
-- https://wiki.openwrt.org/doc/recipes/broadcomwds
-- https://wiki.openwrt.org/doc/recipes/atheroswds
-- https://wireless.wiki.kernel.org/en/users/Documentation/iw#using_4-address_for_ap_and_client_mode
-- https://www.reddit.com/r/openwrt/comments/515oea/finally_got_80211r_roaming_working/
 
 HostAPd:
 - http://linuxwireless.org/en/users/Documentation/hostapd/
 - https://wireless.wiki.kernel.org/en/users/documentation/hostapd
 - https://w1.fi/cgit/hostap/plain/hostapd/hostapd.conf
-
-Wireless Network:
-- https://wiki.openwrt.org/doc/recipes/guest-wlan#step_2copy_the_existing_wireless_network
