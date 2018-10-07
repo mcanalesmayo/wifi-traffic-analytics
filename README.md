@@ -6,6 +6,12 @@ In this project the impact of the **handoff** process in the latency in differen
 
 ![](doc/img/handoff_process.png)
 
+## Source code
+
+[udp_send.py](scripts/udp_send.py) can be tweaked to send UDP packets from one STA to another one.
+
+[SEU_Stats.m](scripts/SEU_Stats.m), [csvToMat.m](scripts/csvToMat.m) and [customhex2num.m](scripts/customhex2num.m) can also be used to process all metrics obtained by Wireshark.
+
 ## Results
 
 A series of experiments have been conducted with two different setups. The first one is the regular one, where two APs are connected to the router via Ethernet, like shown in image below:
@@ -15,6 +21,14 @@ A series of experiments have been conducted with two different setups. The first
 For the second setup, WDS has been enabled to allow one AP to be the master (connected to the router via Ethernet) and the other one to be the slave (connected to the master via WiFi), like shown in the image below:
 
 ![](doc/img/setup_wds.png)
+
+The graphs analyzing several parameters for all experiments can be found under the [img](img) folder. The following graphs show these graphs for one of the experiments:
+
+![](img/diff_channel_moving/diff_ch_moving_rssi_connected.png)
+
+![](img/diff_channel_moving/diff_ch_moving_iat_and_packet_loss.png)
+
+![](img/diff_channel_moving/diff_ch_moving_pdr.png)
 
 The following table shows the summary of the results, depending not only on above setup but also on the WiFi channel and the movement done by the STA:
 
