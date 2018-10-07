@@ -2,7 +2,7 @@
 
 Real-time applications have strong requirements in terms of latency, which may be compromised in some environments. We have a real use case in a 7.7 km tunnel with several access points (APs). There are several stations (STAs) running a real-time application which must not exceed **150 ms** of latency time. These STAs are constantly moving along the tunnel.
 
-In this project the impact of the **handoff** process in the latency is analyzed. This is triggered when an STA (connected to the WiFi network inside the tunnel) gets away from its current AP while getting closer to another AP. The purpose is to check whether the 150 ms requirement is met when the STA is performing the handoff. Please, find below how the usual handoff process would look like in terms of frames:
+In this project the impact of the **handoff** process in the latency in different situations is analyzed. This is triggered when an STA (connected to the WiFi network inside the tunnel) gets away from its current AP while getting closer to another AP. The purpose is to check whether the 150 ms requirement is met when the STA is performing the handoff. Please, find below how the usual handoff process would look like in terms of frames:
 
 ![](doc/img/handoff_process.png)
 
