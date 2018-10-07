@@ -22,7 +22,7 @@ For the second setup, WDS has been enabled to allow one AP to be the master (con
 
 ![](doc/img/setup_wds.png)
 
-The graphs analyzing several parameters for all experiments can be found under the [img](img) folder. The following graphs show these graphs for one of the experiments:
+The graphs analyzing several parameters for all experiments can be found under the [img](img) folder. The following graphs show these graphs for one of the experiments where the handoff happens at around second 45 and lasts more than 2 seconds:
 
 ![](img/diff_channel_moving/diff_ch_moving_rssi_connected.png)
 
