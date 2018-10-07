@@ -5,8 +5,6 @@ import struct
 REMOTE_IP = "155.210.155.137"
 REMOTE_PORT = 8080
 
-N_PACKETS = 100000
-
 fd = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 seq = 0
